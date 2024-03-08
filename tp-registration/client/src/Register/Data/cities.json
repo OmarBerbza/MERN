@@ -1,0 +1,35 @@
+[
+    {
+        "id": "0",
+        "ville": null
+    },
+    {
+        "id": "1",
+        "ville": "Massa"
+    },
+    {
+        "id": "2",
+        "ville": "Agadir"
+    },
+    {
+        "id": "3",
+        "ville": "Marakech"
+    },
+    {
+        "id": "4",
+        "ville": "Tanger"
+    },
+    {
+        "id": "5",
+        "ville": "Fes"
+    },
+    {
+        "id": "6",
+        "ville": "Layoun"
+    },
+    {
+        "id": 7,
+        "ville": "Tiznit"
+    }
+    
+]

@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+}
+li::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../public/img/download.png") no-repeat ;
+    background-size: contain;
+    margin-right: 10px;
+}
+

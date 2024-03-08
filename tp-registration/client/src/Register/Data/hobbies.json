@@ -1,0 +1,14 @@
+[
+    { 
+        "id": 1, 
+        "loi": "Sport" 
+    },
+    { 
+        "id": 2, 
+        "loi": "Lecture" 
+    },
+    { 
+        "id": 3, 
+        "loi": "Musique" 
+    }
+]

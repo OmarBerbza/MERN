@@ -1,0 +1,113 @@
+html, body{
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: url('https://images.unsplash.com/photo-1531156992292-d36397ee9184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')
+              no-repeat center center /cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+/* HEADER */
+header{
+  background-color: #1EA24F;
+  box-shadow: 2px 2px 15px green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-brand{
+  text-shadow: 0 0 3px #aee48e, 0px 2px 15px #00e1ff;
+}
+
+.header-links{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header-links:hover{
+  background-color: #1D9648 ;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* HOME PAGE */
+.welcom{
+  margin-top: 90px;
+  text-align: center;
+  padding: 200px;
+  text-shadow: 0 0 3px #aee48e, 0px 2px 15px #00e1ff;
+}
+
+/* FORM PAGE */
+.form-step{
+  margin-top: 90px;
+}
+
+form{
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+
+.msg{
+  border-radius: 5px;
+}
+
+.checking{
+  color: rgb(255, 255, 79);
+}
+
+.div-checking{
+  position: relative;
+  margin-top: 220px;
+  left: 30px;
+}
+
+.textAr{
+  color: yellow;
+  font-size: x-large;
+  resize: none;
+  height: "50px"; 
+  width:"5px";
+  font-weight: 500;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.showPass:hover{
+  color: yellow;
+}
+
+/* FOOTER */
+footer{
+  background-color: #1EA24F;
+  box-shadow: 2px 2px 20px green;
+  height: 250px;
+  padding: 50px;
+  margin-top: 10px;
+}
+
+.footer-links:hover{
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  footer{
+    height: 400px;
+  }
+}
+
+/* Display Form */
+.displayForm{
+  margin-top: 100px;
+}
